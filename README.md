@@ -2,7 +2,13 @@
 
 # Docs
 
-This repository follows our paper [Differentiability in Unrolled Training of Neural Physics Simulators on Transient Dynamics](https://arxiv.org/pdf/2402.12971), where we study different unrolling strategies. This includes differentiable (WIG) and non-differentiable (NOG) unrolling variants which we compare to a baseline one-step approach (ONE). These comparisons can be replicated with the provided code. Training data can either be generated with the scripts from this repository or downloaded ([coming soon](??)).
+This repository follows our paper 
+_Differentiability in Unrolled Training of Neural Physics Simulators on Transient Dynamics_, published in
+*Computer Methods in Applied Mechanics and Engineering*.
+- [CMAME version](https://authors.elsevier.com/sd/article/S0045-7825(24)00696-0)
+- [arXiv preprint](https://arxiv.org/pdf/2402.12971) 
+
+We study different unrolling strategies. This includes differentiable (WIG) and non-differentiable (NOG) unrolling variants which we compare to a baseline one-step approach (ONE). These comparisons can be replicated with the provided code. Training data can either be generated with the scripts from this repository or downloaded ([coming soon](??)).
 
 ---
 
