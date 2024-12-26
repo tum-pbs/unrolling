@@ -6,8 +6,9 @@ warning: WIG version from paper is called WGR here
 
 """
 import numpy as np
+import scipy as scp
 import os, argparse, subprocess, logging, inspect, shutil, pickle, time
-import torch
+from phi.torch.flow import * 
 
 DISABLE_GCN = int(os.environ.get("KS_DISABLE_GCN", "0"))>0
 if not DISABLE_GCN:
@@ -165,8 +166,6 @@ class DatasetKS():
 
 # PART 1 , generat data
 
-import scipy as scp
-from phi.torch.flow import * 
 import matplotlib.pyplot as plt
 TORCH.set_default_device("GPU") 
 device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
